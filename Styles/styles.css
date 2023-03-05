@@ -173,90 +173,6 @@ span {
 height: 220px;
 }
 
-@media screen and (max-width: 1920px) {
-    nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 85px;
-    padding: 15px;
-    }
-
-    .nav-link {
-        margin-right: 100px;
-        padding: 4px;
-    }
-    
-    aside {
-        display: flex;
-        justify-content: center;
-        height: 130px;
-        padding: 18px;
-    }
-    
-    table {
-        margin-top: 120px;
- }
-
-    .form-check-inline {
-        margin-right: 85px;
-        margin-top: 32px;
-    }
-
-    section {
-        height: 702px;
-        padding: 70px;
-    }
-}
-
-@media screen and (max-width: 1366px) {
-    nav {
-        height: 50px;
-    }
-
-        .nav-link {
-            font-size: 10px;
-        }
-
-        header {
-            height: 70px;
-
-        }
-        
-        aside {
-            height: 75px;
-            padding: 18px;
-        }
-        
-        table {
-            margin-top: -28px;
-     }
-
-        .form-check-inline {
-            margin-right: 15px;
-            margin-top: 20px;
-        }
-        .form-inline {
-            display: flex;
-            width: 590px;
-        }
-        
-        section {
-            height: 530px;
-            padding: 50px;
-            top: 5px;
-        }
-
-        span {
-            height: 500px;
-        }
-        footer {
-            height: 43px;
-            font-size: 20px;
-        }
-    }
-
-
 @media screen and (max-width: 768px) {
     nav {
     height: 50px;
@@ -264,13 +180,8 @@ height: 220px;
 
     .nav-logo {
     display: flex;
-    margin-top: 25px;
     margin-right:60px;
     }
-
-    .nav-link {
-    visibility: hidden;
-    } 
 
     header {
     height: 70px;
@@ -340,9 +251,10 @@ height: 220px;
     }   
 
     .nav-logo {
-    margin-right:-80px;
-    margin-top: 70px;
+    margin-top: -15px;
+    margin-left: 60px;
     display: flex;
+
     }
     
 
